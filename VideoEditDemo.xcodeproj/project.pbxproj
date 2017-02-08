@@ -7,15 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F6F51A81E498C9600B2DE6B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6F51A71E498C9600B2DE6B /* MobileCoreServices.framework */; };
+		9F6F51AA1E498E7100B2DE6B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6F51A91E498E7100B2DE6B /* AVFoundation.framework */; };
+		9F6F51AC1E49BC0700B2DE6B /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6F51AB1E49BC0700B2DE6B /* AssetsLibrary.framework */; };
+		9F6F51AF1E49C22100B2DE6B /* AddBackgroundMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6F51AE1E49C22100B2DE6B /* AddBackgroundMusicViewController.m */; };
+		9F6F51B11E49C81800B2DE6B /* 当我遇上你.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F6F51B01E49C81800B2DE6B /* 当我遇上你.mp3 */; };
+		9F8153C21E4AB851004DC987 /* MergeVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8153C11E4AB851004DC987 /* MergeVideoViewController.m */; };
+		9F8153CB1E4AF484004DC987 /* APLSimpleEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8153CA1E4AF484004DC987 /* APLSimpleEditor.m */; };
+		9F8153D41E4AFAAB004DC987 /* ICGRulerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8153CE1E4AFAAB004DC987 /* ICGRulerView.m */; };
+		9F8153D51E4AFAAB004DC987 /* ICGThumbView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8153D01E4AFAAB004DC987 /* ICGThumbView.m */; };
+		9F8153D61E4AFAAB004DC987 /* ICGVideoTrimmerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8153D31E4AFAAB004DC987 /* ICGVideoTrimmerView.m */; };
 		9FAFCC901E48784100C59819 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAFCC8F1E48784100C59819 /* main.m */; };
 		9FAFCC931E48784100C59819 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAFCC921E48784100C59819 /* AppDelegate.m */; };
 		9FAFCC961E48784100C59819 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAFCC951E48784100C59819 /* ViewController.m */; };
 		9FAFCC991E48784100C59819 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FAFCC971E48784100C59819 /* Main.storyboard */; };
 		9FAFCC9B1E48784100C59819 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FAFCC9A1E48784100C59819 /* Assets.xcassets */; };
 		9FAFCC9E1E48784100C59819 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FAFCC9C1E48784100C59819 /* LaunchScreen.storyboard */; };
+		9FAFCCAC1E487E4C00C59819 /* VideoCutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAFCCAA1E487E4C00C59819 /* VideoCutViewController.m */; };
+		9FAFCCAD1E487E4C00C59819 /* VideoCutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FAFCCAB1E487E4C00C59819 /* VideoCutViewController.xib */; };
+		9FAFCCAF1E487E9F00C59819 /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FAFCCAE1E487E9F00C59819 /* Second.storyboard */; };
+		9FAFCCBD1E4881E800C59819 /* WaterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAFCCBC1E4881E800C59819 /* WaterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F6F51A71E498C9600B2DE6B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		9F6F51A91E498E7100B2DE6B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9F6F51AB1E49BC0700B2DE6B /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		9F6F51AD1E49C22100B2DE6B /* AddBackgroundMusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddBackgroundMusicViewController.h; sourceTree = "<group>"; };
+		9F6F51AE1E49C22100B2DE6B /* AddBackgroundMusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddBackgroundMusicViewController.m; sourceTree = "<group>"; };
+		9F6F51B01E49C81800B2DE6B /* 当我遇上你.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "当我遇上你.mp3"; sourceTree = "<group>"; };
+		9F8153C01E4AB851004DC987 /* MergeVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeVideoViewController.h; sourceTree = "<group>"; };
+		9F8153C11E4AB851004DC987 /* MergeVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MergeVideoViewController.m; sourceTree = "<group>"; };
+		9F8153C91E4AF484004DC987 /* APLSimpleEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLSimpleEditor.h; sourceTree = "<group>"; };
+		9F8153CA1E4AF484004DC987 /* APLSimpleEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLSimpleEditor.m; sourceTree = "<group>"; };
+		9F8153CD1E4AFAAB004DC987 /* ICGRulerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICGRulerView.h; sourceTree = "<group>"; };
+		9F8153CE1E4AFAAB004DC987 /* ICGRulerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICGRulerView.m; sourceTree = "<group>"; };
+		9F8153CF1E4AFAAB004DC987 /* ICGThumbView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICGThumbView.h; sourceTree = "<group>"; };
+		9F8153D01E4AFAAB004DC987 /* ICGThumbView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICGThumbView.m; sourceTree = "<group>"; };
+		9F8153D11E4AFAAB004DC987 /* ICGVideoTrimmer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICGVideoTrimmer.h; sourceTree = "<group>"; };
+		9F8153D21E4AFAAB004DC987 /* ICGVideoTrimmerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICGVideoTrimmerView.h; sourceTree = "<group>"; };
+		9F8153D31E4AFAAB004DC987 /* ICGVideoTrimmerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICGVideoTrimmerView.m; sourceTree = "<group>"; };
 		9FAFCC8B1E48784100C59819 /* VideoEditDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoEditDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FAFCC8F1E48784100C59819 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9FAFCC911E48784100C59819 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +57,12 @@
 		9FAFCC9A1E48784100C59819 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FAFCC9D1E48784100C59819 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FAFCC9F1E48784100C59819 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FAFCCA91E487E4C00C59819 /* VideoCutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCutViewController.h; sourceTree = "<group>"; };
+		9FAFCCAA1E487E4C00C59819 /* VideoCutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCutViewController.m; sourceTree = "<group>"; };
+		9FAFCCAB1E487E4C00C59819 /* VideoCutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoCutViewController.xib; sourceTree = "<group>"; };
+		9FAFCCAE1E487E9F00C59819 /* Second.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Second.storyboard; sourceTree = "<group>"; };
+		9FAFCCBB1E4881E800C59819 /* WaterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterViewController.h; sourceTree = "<group>"; };
+		9FAFCCBC1E4881E800C59819 /* WaterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +70,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F6F51AC1E49BC0700B2DE6B /* AssetsLibrary.framework in Frameworks */,
+				9F6F51AA1E498E7100B2DE6B /* AVFoundation.framework in Frameworks */,
+				9F6F51A81E498C9600B2DE6B /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F6F51A61E498C9500B2DE6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F6F51AB1E49BC0700B2DE6B /* AssetsLibrary.framework */,
+				9F6F51A91E498E7100B2DE6B /* AVFoundation.framework */,
+				9F6F51A71E498C9600B2DE6B /* MobileCoreServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F8153CC1E4AFAAB004DC987 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				9F8153CD1E4AFAAB004DC987 /* ICGRulerView.h */,
+				9F8153CE1E4AFAAB004DC987 /* ICGRulerView.m */,
+				9F8153CF1E4AFAAB004DC987 /* ICGThumbView.h */,
+				9F8153D01E4AFAAB004DC987 /* ICGThumbView.m */,
+				9F8153D11E4AFAAB004DC987 /* ICGVideoTrimmer.h */,
+				9F8153D21E4AFAAB004DC987 /* ICGVideoTrimmerView.h */,
+				9F8153D31E4AFAAB004DC987 /* ICGVideoTrimmerView.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		9FAFCC821E48784100C59819 = {
 			isa = PBXGroup;
 			children = (
 				9FAFCC8D1E48784100C59819 /* VideoEditDemo */,
 				9FAFCC8C1E48784100C59819 /* Products */,
+				9F6F51A61E498C9500B2DE6B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +123,17 @@
 		9FAFCC8D1E48784100C59819 /* VideoEditDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9F6F51B01E49C81800B2DE6B /* 当我遇上你.mp3 */,
 				9FAFCC911E48784100C59819 /* AppDelegate.h */,
 				9FAFCC921E48784100C59819 /* AppDelegate.m */,
 				9FAFCC941E48784100C59819 /* ViewController.h */,
 				9FAFCC951E48784100C59819 /* ViewController.m */,
+				9FAFCCA51E487DA700C59819 /* 裁剪 */,
+				9FAFCCA61E487DA700C59819 /* 合成 */,
+				9FAFCCA71E487DA700C59819 /* 水印 */,
+				9FAFCCA81E487DA700C59819 /* 添加背景音乐 */,
 				9FAFCC971E48784100C59819 /* Main.storyboard */,
+				9FAFCCAE1E487E9F00C59819 /* Second.storyboard */,
 				9FAFCC9A1E48784100C59819 /* Assets.xcassets */,
 				9FAFCC9C1E48784100C59819 /* LaunchScreen.storyboard */,
 				9FAFCC9F1E48784100C59819 /* Info.plist */,
@@ -77,6 +148,47 @@
 				9FAFCC8F1E48784100C59819 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9FAFCCA51E487DA700C59819 /* 裁剪 */ = {
+			isa = PBXGroup;
+			children = (
+				9FAFCCA91E487E4C00C59819 /* VideoCutViewController.h */,
+				9FAFCCAA1E487E4C00C59819 /* VideoCutViewController.m */,
+				9FAFCCAB1E487E4C00C59819 /* VideoCutViewController.xib */,
+				9F8153CC1E4AFAAB004DC987 /* Source */,
+			);
+			path = "裁剪";
+			sourceTree = "<group>";
+		};
+		9FAFCCA61E487DA700C59819 /* 合成 */ = {
+			isa = PBXGroup;
+			children = (
+				9F8153C01E4AB851004DC987 /* MergeVideoViewController.h */,
+				9F8153C11E4AB851004DC987 /* MergeVideoViewController.m */,
+				9F8153C91E4AF484004DC987 /* APLSimpleEditor.h */,
+				9F8153CA1E4AF484004DC987 /* APLSimpleEditor.m */,
+			);
+			path = "合成";
+			sourceTree = "<group>";
+		};
+		9FAFCCA71E487DA700C59819 /* 水印 */ = {
+			isa = PBXGroup;
+			children = (
+				9FAFCCBB1E4881E800C59819 /* WaterViewController.h */,
+				9FAFCCBC1E4881E800C59819 /* WaterViewController.m */,
+			);
+			name = "水印";
+			path = "水平";
+			sourceTree = "<group>";
+		};
+		9FAFCCA81E487DA700C59819 /* 添加背景音乐 */ = {
+			isa = PBXGroup;
+			children = (
+				9F6F51AD1E49C22100B2DE6B /* AddBackgroundMusicViewController.h */,
+				9F6F51AE1E49C22100B2DE6B /* AddBackgroundMusicViewController.m */,
+			);
+			path = "添加背景音乐";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +251,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FAFCC9E1E48784100C59819 /* LaunchScreen.storyboard in Resources */,
+				9FAFCCAD1E487E4C00C59819 /* VideoCutViewController.xib in Resources */,
 				9FAFCC9B1E48784100C59819 /* Assets.xcassets in Resources */,
+				9FAFCCAF1E487E9F00C59819 /* Second.storyboard in Resources */,
+				9F6F51B11E49C81800B2DE6B /* 当我遇上你.mp3 in Resources */,
 				9FAFCC991E48784100C59819 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,8 +267,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FAFCC961E48784100C59819 /* ViewController.m in Sources */,
+				9FAFCCAC1E487E4C00C59819 /* VideoCutViewController.m in Sources */,
+				9FAFCCBD1E4881E800C59819 /* WaterViewController.m in Sources */,
+				9F8153C21E4AB851004DC987 /* MergeVideoViewController.m in Sources */,
+				9F8153CB1E4AF484004DC987 /* APLSimpleEditor.m in Sources */,
+				9F8153D41E4AFAAB004DC987 /* ICGRulerView.m in Sources */,
 				9FAFCC931E48784100C59819 /* AppDelegate.m in Sources */,
 				9FAFCC901E48784100C59819 /* main.m in Sources */,
+				9F6F51AF1E49C22100B2DE6B /* AddBackgroundMusicViewController.m in Sources */,
+				9F8153D61E4AFAAB004DC987 /* ICGVideoTrimmerView.m in Sources */,
+				9F8153D51E4AFAAB004DC987 /* ICGThumbView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +396,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 23CNQ6K9TW;
 				INFOPLIST_FILE = VideoEditDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sand.VideoEditDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -285,6 +409,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 23CNQ6K9TW;
 				INFOPLIST_FILE = VideoEditDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sand.VideoEditDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -310,6 +435,7 @@
 				9FAFCCA41E48784100C59819 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
